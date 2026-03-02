@@ -64,5 +64,7 @@ class Solution:
 
 -   Time Complexity: O(n)
 -   Space Complexity: O(1)
+-------------------------------------------------------------------------
+## Screenshot 
 
  <img width="1898" height="916" alt="Screenshot 2026-03-02 103110" src="https://github.com/user-attachments/assets/2a7beb2f-ac4f-4d47-b336-1fbf17d39507" />

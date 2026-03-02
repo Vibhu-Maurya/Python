@@ -104,6 +104,9 @@ class Solution:
 -   Space Complexity: O(n)
 
 ------------------------------------------------------------------------
+## Screenshot
+<img width="1911" height="922" alt="Screenshot 2026-03-02 114853" src="https://github.com/user-attachments/assets/2f19e5bd-e3cb-48f5-975d-96c54b35bd55" />
+
 
 ## Key Points
 

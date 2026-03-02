@@ -100,3 +100,7 @@ class Solution:
 -   Union means distinct elements from both arrays.
 -   Duplicate elements must appear only once.
 -   Order does not matter (driver will sort).
+## Screenshot
+<img width="1913" height="896" alt="image" src="https://github.com/user-attachments/assets/0144fa1e-7c27-4da5-a5bb-34ec96c6a297" />
+
+

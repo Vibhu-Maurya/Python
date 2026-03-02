@@ -65,3 +65,7 @@ class Solution:
 -   Only one traversal is required.
 -   No extra space is used.
 -   Efficient for large arrays.
+-----------------------------------------------------------------------
+## Screenshot
+<img width="1906" height="923" alt="Screenshot 2026-03-02 104227" src="https://github.com/user-attachments/assets/196a05b8-1e90-46c8-bfea-fec396036360" />
+

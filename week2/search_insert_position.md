@@ -103,6 +103,9 @@ class Solution:
 -   Space Complexity: O(1)
 
 ------------------------------------------------------------------------
+## Screenshot
+<img width="1911" height="922" alt="image" src="https://github.com/user-attachments/assets/5eb5df0f-d46c-41c5-a638-26cbe7c357b2" />
+
 
 ## Key Points
 

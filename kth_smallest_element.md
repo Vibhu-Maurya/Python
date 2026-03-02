@@ -89,3 +89,7 @@ class Solution:
 -   Heap is better when k is small compared to n.
 -   Always return `arr[k - 1]` after sorting (since indexing starts from
     0).
+---------------------------------------------------------------------------
+## Screenshot
+<img width="1913" height="912" alt="image" src="https://github.com/user-attachments/assets/0f7e01fc-faf4-4027-8ae1-7d29aecbb459" />
+

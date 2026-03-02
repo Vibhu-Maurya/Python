@@ -101,3 +101,7 @@ class Solution:
 -   This is known as Kadane's Algorithm.
 -   Works even when all elements are negative.
 -   Only one traversal is required.
+
+## screenshot 
+<img width="1913" height="927" alt="image" src="https://github.com/user-attachments/assets/6b05f9b5-7246-4d8a-ada3-b1f9906337fa" />
+

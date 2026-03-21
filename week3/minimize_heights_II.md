@@ -45,23 +45,24 @@ Difference → `8 - 3 = 5`
 
 ```python
 class Solution:
-    def getMinDiff(self, arr, n, k):
+    def getMinDiff(self, arr, k):
+        n = len(arr)
         arr.sort()
-
+        
         ans = arr[n-1] - arr[0]
-
+        
         smallest = arr[0] + k
         largest = arr[n-1] - k
-
+        
         for i in range(n - 1):
             mini = min(smallest, arr[i+1] - k)
             maxi = max(largest, arr[i] + k)
-
+            
             if mini < 0:
                 continue
-
+            
             ans = min(ans, maxi - mini)
-
+        
         return ans
 ```
 
@@ -80,6 +81,8 @@ class Solution:
 - Try all partition points
 
 ---
+<img width="1915" height="922" alt="image" src="https://github.com/user-attachments/assets/436b35b2-54de-4d20-9ad7-b10c8a8f6553" />
+
 
 ## 📌 Conclusion
 This is a classic greedy problem where sorting + smart partitioning gives the optimal solution.

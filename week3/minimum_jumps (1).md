@@ -84,6 +84,8 @@ class Solution:
 
         return -1
 ```
+<img width="1911" height="921" alt="image" src="https://github.com/user-attachments/assets/5f44c251-4b86-4e50-995c-6e33f365436b" />
+
 
 ---
 

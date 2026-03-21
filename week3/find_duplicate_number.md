@@ -77,8 +77,11 @@ class Solution:
 
         return slow
 ```
+<img width="1909" height="916" alt="image" src="https://github.com/user-attachments/assets/13b31728-96d2-4049-8ac9-4a7d40381d46" />
+
 
 ---
+
 
 ## ⏱ Complexity
 - Time Complexity: **O(n)**

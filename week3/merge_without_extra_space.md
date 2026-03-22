@@ -50,35 +50,43 @@ b = [10, 13, 15, 20]
 
 ```python
 class Solution:
-    def merge(self, a, b, n, m):
+    def mergeArrays(self, a, b):
+        n = len(a)
+        m = len(b)
+        
         def nextGap(gap):
             if gap <= 1:
                 return 0
             return (gap // 2) + (gap % 2)
-
+        
         gap = n + m
-
+        
         while gap > 0:
             gap = nextGap(gap)
-
+            
             i = 0
             while i + gap < n + m:
                 j = i + gap
-
+                
+                # Case 1: both in a
                 if i < n and j < n:
                     if a[i] > a[j]:
                         a[i], a[j] = a[j], a[i]
-
+                
+                # Case 2: i in a, j in b
                 elif i < n and j >= n:
                     if a[i] > b[j - n]:
                         a[i], b[j - n] = b[j - n], a[i]
-
+                
+                # Case 3: both in b
                 else:
                     if b[i - n] > b[j - n]:
                         b[i - n], b[j - n] = b[j - n], b[i - n]
-
+                
                 i += 1
 ```
+<img width="1910" height="911" alt="image" src="https://github.com/user-attachments/assets/8a431776-a089-4d21-942a-424006e4eecc" />
+
 
 ---
 

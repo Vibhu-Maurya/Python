@@ -67,6 +67,8 @@ class Solution:
 
         return merged
 ```
+<img width="1910" height="910" alt="image" src="https://github.com/user-attachments/assets/53828d16-a57b-4399-970b-0c352d06acca" />
+
 
 ---
 

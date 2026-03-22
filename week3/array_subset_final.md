@@ -75,6 +75,8 @@ class Solution:
 
         return j == m
 ```
+<img width="1911" height="915" alt="image" src="https://github.com/user-attachments/assets/05215ea1-12bf-46ae-9850-ebfb82226592" />
+
 
 ---
 

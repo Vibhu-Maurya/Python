@@ -58,26 +58,28 @@ false
 
 ```python
 class Solution:
-    def find3Numbers(self, arr, target):
+    def hasTripletSum(self, arr, target):
         arr.sort()
         n = len(arr)
-
+        
         for i in range(n - 2):
             left = i + 1
             right = n - 1
-
+            
             while left < right:
                 curr_sum = arr[i] + arr[left] + arr[right]
-
+                
                 if curr_sum == target:
                     return True
                 elif curr_sum < target:
                     left += 1
                 else:
                     right -= 1
-
+        
         return False
 ```
+<img width="1912" height="918" alt="image" src="https://github.com/user-attachments/assets/ebe182f9-1414-4ca6-bf86-3308569c0d2a" />
+
 
 ---
 

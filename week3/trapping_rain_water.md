@@ -94,6 +94,7 @@ class Solution:
 
         return water
 ```
+<img width="1911" height="904" alt="image" src="https://github.com/user-attachments/assets/ffbe5d1b-f8d0-4f90-af2d-318778933e09" />
 
 ---
 

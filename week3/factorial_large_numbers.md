@@ -71,6 +71,8 @@ class Solution:
 
         return result[::-1]
 ```
+<img width="1907" height="916" alt="image" src="https://github.com/user-attachments/assets/f2f5c14f-71e4-4182-ab19-8573364b6c0e" />
+
 
 ---
 
